@@ -54,10 +54,10 @@ This script allows you to change the MAC address of a network interface on your 
   
 - Or Switch to "root" and run:
   
-      ```bash
+  ```bash
       3/>  sudo su -  
       3/>  sudo python custom-macchanger.py -i <interface> -m <new_mac_address>
-    ```
+  ```
 
 ## Authors
 
