@@ -18,6 +18,7 @@ print("""
 """)
 print("𝑪𝒐𝒏𝒕𝒓𝒊𝒃𝒖𝒕𝒊𝒐𝒏𝒔 𝒂𝒓𝒆 𝒘𝒆𝒍𝒄𝒐𝒎𝒆𝒅: 𝒉𝒕𝒕𝒑𝒔://𝒔𝒆𝒄-𝒇𝒐𝒓𝒕𝒓𝒆𝒔𝒔.𝒈𝒊𝒕𝒉𝒖𝒃.𝒊𝒐")
 
+
 def get_common_interfaces():
     # Define a list of common interface names
     common_interfaces = ['eth0', 'eth1', 'wlan0', 'wlan1' 'lo']
