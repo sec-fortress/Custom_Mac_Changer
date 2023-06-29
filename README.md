@@ -47,8 +47,24 @@ This script allows you to change the MAC address of a network interface on your 
   ```bash
   python custom-macchanger.py --help
 
+- If none of this works, make sure to run with `sudo` or root respectively:
+  ```bash
+  sudo python custom-macchanger.py --help
+OR
+  ```bash
+  sudo python custom-macchanger.py -i <interface> -m <new_mac_address>
+  ```
+
 ## Authors
 
 - [OlaxD](https://sec-fortress.github.io)
 
+## Supported Platforms
+
+The script has been tested and confirmed to work on the following platforms:
+
+- Kali Linux
+- Ubuntu
+
+.....And any other thing that runs linux with root priviledges.
 
