@@ -20,14 +20,15 @@ This script allows you to change the MAC address of a network interface on your 
 ## Installation
 
 1. Clone the repository:
-
    ```bash
    git clone https://github.com/your-username/your-repository.git
 
 2. Navigate to the Script's Directory
-   `cd your-repository`
+   ```bash
+   cd your-repository
 
 3. Install the required modules:
-   `pip install -r requirements.txt`
+   ```bash
+   pip install -r requirements.txt
 
-# USAGE
+## Usage
