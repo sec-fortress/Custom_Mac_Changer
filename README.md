@@ -20,15 +20,35 @@ This script allows you to change the MAC address of a network interface on your 
 ## Installation
 
 1. Clone the repository:
+   
    ```bash
-   git clone https://github.com/your-username/your-repository.git
+   git clone https://github.com/sec-fortress/Custom_Mac_Changer.git
 
-2. Navigate to the Script's Directory
+3. Navigate to the Script's Directory:
+   
    ```bash
-   cd your-repository
+   cd Custom_Mac_Changer
 
-3. Install the required modules:
+4. Install the required modules:
+   
    ```bash
    pip install -r requirements.txt
 
 ## Usage
+
+- Open a terminal and navigate to the script's directory.
+- Run the script:
+
+  ```bash
+  python custom-macchanger.py -i <interface> -m <new_mac_address>
+
+- Make sure to Follow the on-screen prompts, you can also use this command to see the help page:
+
+  ```bash
+  python custom-macchanger.py --help
+
+## Authors
+
+- [OlaxD](https://sec-fortress.github.io)
+
+
